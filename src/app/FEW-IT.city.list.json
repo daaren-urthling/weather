@@ -1,0 +1,37 @@
+{"cities":[  {
+    "id": 3175936,
+    "name": "Grandate",
+    "country": "IT",
+    "coord": {
+      "lon": 9.05784,
+      "lat": 45.775181
+    }
+  },
+  {
+    "id": 6539582,
+    "name": "Biella",
+    "country": "IT",
+    "coord": {
+      "lon": 8.05002,
+      "lat": 45.55986
+    }
+  },
+  {
+    "id": 6542288,
+    "name": "Soverato",
+    "country": "IT",
+    "coord": {
+      "lon": 16.54991,
+      "lat": 38.684978
+    }
+  },
+  {
+    "id": 6540662,
+    "name": "Pinerolo",
+    "country": "IT",
+    "coord": {
+      "lon": 7.33312,
+      "lat": 44.883942
+    }
+  }
+  ]}
