@@ -1,0 +1,13 @@
+Link utili
+
+http://www.webteacher.com/javascript/index.html
+https://www.sciencebuddies.org/science-fair-projects/project-ideas/CompSci_p001/computer-science/writing-a-simple-calculator-program-with-javascript#summary
+https://www.sciencebuddies.org/science-fair-projects/project-ideas/CompSci_p002/computer-science/programming-a-simple-alphabetizer-with-javascript#summary
+
+http://www.html.it/guide/guida-typescript/
+http://www.html5italia.com/articoli/html5/utilizzare-typescript-creare-applicazioni-angular-2.aspx
+
+https://code.tutsplus.com/it/tutorials/typescript-for-beginners-getting-started--cms-29329
+https://angular.io/tutorial
+
+api.openweathermap.org
