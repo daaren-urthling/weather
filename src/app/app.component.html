@@ -1,11 +1,28 @@
 <div class="container">
-  <div class="col-xs-6">
+  <div class="col-xs-4">
       <div class="row">
+        <div class="col-xs-12">
           <input type="text" placeholder="città" [(ngModel)]="city">
-          <button class="btn btn-primary" (click)="OnGetForecast()">Cerca</button>
+          <button class="btn btn-primary" (click)="OnGetForecastByName()">Cerca</button>
+          <button class="btn btn-primary" (click)="OnAddFavorites()">+</button>
+        </div>
       </div>
+      <hr>
       <div class="row">
-          <button class="btn btn-primary" (click)="OnGetCities()">Cities</button>
+        <div class="col-xs-12">
+            <a href="#" class="list-group-item clearfix"  *ngFor="let city of favorites" role="button" (click)="OnGetForecastByID(city.id)">
+                <p class="list-group-item-text">{{ city.name }}</p>
+            </a>
+        </div>
       </div>
+  </div>
+  <div class="col-xs-4 w-card" [hidden]="!result.id">
+      <h1>{{result.city}}</h1>
+      <span class="pull-left"><img src="http://openweathermap.org/img/w/{{result.icon}}.png" alt=""></span> 
+      <span class="pull-rigth"><h3>{{result.condition}}</h3></span>  
+      <span class="pull-left">Temperatura: {{result.temperature}}&deg;C ({{result.tempMin}}&deg;C / {{result.tempMax}}&deg;C)</span>
+  </div>
+  <div class="col-xs-8" *ngIf="error">
+      <span>Città non trovata</span>
   </div>
 </div>
