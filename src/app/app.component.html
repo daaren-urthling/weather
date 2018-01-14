@@ -4,7 +4,7 @@
         <div class="col-xs-12">
           <input type="text" placeholder="città" [(ngModel)]="city">
           <button class="btn btn-primary" (click)="OnGetForecastByName()">Cerca</button>
-          <button class="btn btn-primary" (click)="OnAddFavorites()">+</button>
+          <button class="btn btn-primary" (click)="OnAddFavorites()" [disabled]="error">+</button>
         </div>
       </div>
       <hr>
